@@ -20,10 +20,20 @@ This is a web application simulating a Student Enrollment form, made using React
 ![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/7ba163c5-73ed-4cfb-84f6-db572f7e43f0)
 
 ### Alerts
->#### If details are entered, and submitted, and the email or the website link matches any previous entries, then the application generates an alert as shown.
->In such case the form does not get cleared, and the user can press OK to correct their entries and retry submitting.
+>#### Duplicate entry: If details are entered, and submitted, and the email or the website link matches any previous entries, then the application generates an alert as shown.
+>In such a case, the form does not get cleared, and the user can press OK to correct their entries and retry submitting.
 >However, the name and other form fields may have the same data, and no alerts are shown.
 ![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/96349c9d-7f28-4959-9321-707d3de293d0)
+
+
+>#### Image: If the wrong format is used for the image, the alert is shown.
+>In such a case, the user clicks OK and tries again, with correct data.
+![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/2a2c19a0-a3f9-4064-a7bc-8d6a8e00572a)
+
+### About the website links
+> The links open in a new tab in the same browser when the user clicks on the Website button (visible for each enrolled student).
+
+<hr/>
 
 ## Getting Started with Create React App
 
