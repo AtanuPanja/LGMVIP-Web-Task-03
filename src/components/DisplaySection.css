@@ -1,0 +1,11 @@
+/* Display Section */
+.displaySection {
+    padding: 0 1rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 1rem; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    /* gap: clamp(2rem,1.5rem + 2vw,7rem); */
+    gap: 2rem;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*,
+button, 
+::file-selector-button{
+  font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+  --light-blue: #ECEFF1;
+  --black: #333333;
+  --yellow: #ffeb00;
+}
+
+body {
+  /* background: linear-gradient(90deg, #ad26ff,#b82eff78); */
+  background-color: var(--light-blue);
+  color: var(--black);
+}
+
+/* Media Queries */
+@media (max-width: 365px) {
+  html {
+    font-size: 12px;
+  }
+  ::file-selector-button {
+    font-size: 10px;
+  }
+  .btnGroup {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .btn {
+    width: 80%;
+  }
+  .enrolled__details {
+    flex-direction: column;
+  }
+  .displaySection {
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  }
+  .details__image {
+    width: 50%;
+    height: auto;
+  }
+}

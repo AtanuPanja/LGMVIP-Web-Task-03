@@ -1,0 +1,32 @@
+.enrolled__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: #dfe9ff; */
+    background-color: white;
+    padding: 0 1rem;
+    /* border-bottom: 0.4px solid var(--black); */
+    margin: 1rem;
+    box-shadow: 1px 2px 6px 0px #333333;
+}
+
+.details__image {
+    width: 10rem;
+    height: 10rem;
+    margin: 0.75rem;
+    margin-left: 0;
+    border-radius: 1rem;
+}
+
+.info__websiteLink {
+    display: flex;
+    align-items: center;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.info__websiteLink>img {
+    width: 16px;
+    filter: opacity(0.5);
+}

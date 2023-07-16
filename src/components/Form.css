@@ -1,0 +1,76 @@
+/* TODO: Form */
+.displaySection__form {
+    padding: 1rem;
+}
+
+/* each input element in the form */
+.formElement {
+    /* color: white; */
+    /* font-size: 1.2rem; */
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+/* Text inputs */
+.formElement__text {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--black);
+    border-radius: 0.25rem;
+    outline: transparent;
+    width: 64%;
+}
+
+.formElement__image {
+    width: 68%;
+    cursor: pointer;
+}
+
+.formElement__image::file-selector-button {
+    background-color: var(--yellow);
+    padding: 0.35em 1.05em;
+    border-radius: 0.2rem;
+    border: none;
+    outline: transparent;
+    cursor: pointer;
+}
+
+/* Radio and checkbox inputs */
+.formElement__radio,
+.formElement__checkbox {
+    width: 68%;
+    accent-color: var(--yellow);
+}
+
+.formElement__radio div *,
+.formElement__checkbox div * {
+    cursor: pointer;
+}
+
+/* Button */
+.btnGroup {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5rem;
+    align-items: center;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: 0.75em 2.25em;
+    border: none;
+    outline: transparent;
+    border-radius: 0.6em;
+    cursor: pointer;
+    color: white;
+}
+
+.btnSubmit {
+    background-color: #00b871;
+}
+
+.btnClear {
+    background-color: #ff1e00c7;
+}

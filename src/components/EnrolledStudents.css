@@ -1,0 +1,44 @@
+/* TODO: Enrolled Students */
+.displaySection__enrolled {
+    /* background-color: white; */
+    border: 1px solid var(--black);
+    word-break: break-all;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.enrolled__list {
+    height: 500px;
+    overflow-y: auto;
+}
+
+/* 
+  .enrolled__list::-webkit-scrollbar {
+    width: 0.65rem;
+  }
+   
+  .enrolled__list::-webkit-scrollbar-track {
+    background-color: #dfe9ff;
+    border-radius: 1rem;
+  }
+  
+  .enrolled__list::-webkit-scrollbar-button {
+    background-color: #dfe9ff;
+    color: #333333;
+  }
+   
+  .enrolled__list::-webkit-scrollbar-thumb {
+  
+    background-color: rgb(48, 162, 182);
+    border-radius: 1rem;
+  } */
+
+.enrolled__heading {
+    background-color: var(--yellow);
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
