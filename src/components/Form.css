@@ -74,3 +74,14 @@
 .btnClear {
     background-color: #ff1e00c7;
 }
+
+@media (max-width: 365px) {
+    .btnGroup {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 80%;
+    }
+}

@@ -30,3 +30,14 @@
     width: 16px;
     filter: opacity(0.5);
 }
+
+@media (max-width: 365px) {
+    .enrolled__details {
+        flex-direction: column;
+    }
+
+    .details__image {
+        width: 50%;
+        height: auto;
+    }
+}
