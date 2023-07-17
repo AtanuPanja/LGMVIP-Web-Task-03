@@ -33,6 +33,13 @@ This is a web application simulating a Student Enrollment form, made using React
 ### About the website links
 > The links open in a new tab in the same browser when the user clicks on the Website button (visible for each enrolled student).
 
+### Mobile Design
+#### Screenshots:
+![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/7f1521d8-21bf-46f8-a8e1-96bd34b2b270)
+![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/025d49fa-dc7c-4380-a9bf-4f211f88585e)
+![image](https://github.com/AtanuPanja/LGMVIP-Web-Task-03/assets/74297632/6c398453-930b-46a6-8a03-45187b6b26c7)
+
+
 <hr/>
 
 ## Getting Started with Create React App
